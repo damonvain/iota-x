@@ -1,6 +1,6 @@
+from data_fetcher import get_live_positions, load_starlink_satellites
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from data_fetcher import load_starlink_satellites, get_live_positions
 
 app = FastAPI(title="Starlink Live Tacker API")
 
